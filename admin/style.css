@@ -1,0 +1,104 @@
+/* Définitions des variables */
+:root {
+    --vert-clair-fond: #D8EAD3;
+    --color-header-vert-foncé: #167056;
+    --textes-header-items: #4DB06D;
+    --color-de-fond-de-contenu: #f7f7f7;
+    --color-bleu: #165787;
+}
+
+body{
+    margin: 0;
+    background: var(--vert-clair-fond);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-entete,
+img.logo {
+    height: 38px;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a.link {
+    display: block;
+    background-color: #167056;
+    color: #4DB06D;
+    text-align: right;
+    margin: 0;
+    padding: 15px 20px 15px 0;
+    text-decoration: none;
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: -20px -15px 0 var(--color-bleu); 
+    border-radius: 25px;
+}
+#container h1{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+    color: var(--color-bleu);
+}
+
+#back {
+    text-align: right;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    border-radius: 15px;
+    background-color: var(--color-bleu);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid var(--color-bleu);
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: var(--color-bleu);
+    border: 1px solid var(--color-bleu);
+}
+
+div.pied-de-page {
+    display: inline;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    display: inline;
+    width: 100%;
+}
+
+.copyright {
+    width: 100%;
+    background-color: #2b2b2a;
+    color: #bfbfbb;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 15px 0;
+}
